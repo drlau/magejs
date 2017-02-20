@@ -13,7 +13,7 @@
         "bluebird": "^3.4.7",
         "cleverbot-node": "^0.3.3",
         "eris": "^0.5.2",
-        "math.js": "^3.9.2",
+        "mathjs": "^3.9.2",
         "node-opus": "^0.2.4",
         "request": "^2.79.0",
         "ytdl-core": "^0.9.0"
