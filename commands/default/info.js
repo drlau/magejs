@@ -5,7 +5,7 @@ exports.cmd = new Mage.Command("info", async message => {
   output += "    **ID**:                  " + bot.user.id + "\n";
   output += "    **Creator**:        Violet\n";
   //output += "    **GitHub**:         https://github.com/drlau\n";
-  output += "    **Language**:    NodeJS v7.5.0\n";
+  output += "    **Language**:    Node.js v7.5.0\n";
   output += "    **Library**:         Eris";
   message.channel.createMessage(output);
 }, {
