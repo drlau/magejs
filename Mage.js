@@ -6,7 +6,7 @@ global.Magic = require("./Magic.js");
 global.bot = new Eris.Client(Magic.config.token, {});
 
 bot.on("ready", () => { // When the bot is ready
-	bot.editStatus("online", {name: "Node.js Development"})
+	bot.editStatus("online", {name: "Explosion!"})
     console.log("Ready!"); // Log "Ready!"
 });
 
