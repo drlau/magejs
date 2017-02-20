@@ -10,7 +10,7 @@ exports.cmd = new Mage.Command("userinfo", async message => {
       if (!message.args[0]) {
         user = message.channel.guild.members.get(message.author.id);
       } else {
-        user = message.channel.guild.members.find(id => (id.nick == message.args[0] || id.username == message.args[0]));
+        user = message.channel.guild.members.find(id => (id.nick == message.args.join(" ") || id.username == message.args.join(" ")));
         if (!user) {
           message.channel.createMessage("Couldn't find user " + message.args[0] + ".");
           return;
