@@ -1,0 +1,31 @@
+## 1.1.0 (2017-02-19)
+
+  - Mage moved to Node.js.
+  - Removed audio playback support for all except YouTube. Sorry :(
+  - Music prefix removed from music commands.
+    - Some commands have been renamed to accommodate
+  - Added math, userinfo and woof commands
+  - Removed kill command.
+
+## 1.0.4 (2017-02-09)
+
+  - Fixed a bug where some YouTube videos would not play
+  - Set to ignore one particular channel in the dev guild
+
+## 1.0.3 (2017-01-23)
+
+  - Added Zurvan Extreme accuracy cap
+  - Added trigger command
+
+## 1.0.2 (2017-01-17)
+
+  - Added kill, restart and meow commands
+
+## 1.0.1 (2017-01-16)
+
+  - Fixed autoGreen's handling of empty messages.
+  - Fixed info command and join message's null author name if author doesn't have nickname
+
+## 1.0.0 (2017-01-15)
+
+  - Initial release!

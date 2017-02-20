@@ -1,0 +1,25 @@
+{
+    "name": "magejs",
+    "version": "1.1.0",
+    "description": "A Discord bot using Eris Library",
+    "keywords": ["discord", "eris"],
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/drlau/magejs.git"
+    },
+    "author": "drlau",
+    "license": "GPL",
+    "dependencies": {
+        "bluebird": "^3.4.7",
+        "cleverbot-node": "^0.3.3",
+        "eris": "^0.5.2",
+        "math.js": "^3.9.2",
+        "node-opus": "^0.2.4",
+        "request": "^2.79.0",
+        "ytdl-core": "^0.9.0"
+    },
+    "main": "./Mage.js",
+    "engines": {
+        "node": ">= 7.0"
+    }
+}
