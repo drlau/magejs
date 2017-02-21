@@ -1,4 +1,4 @@
-# magejs [![Dependant Status](https://david-dm.org/drlau/magejs/status.svg)](https://david-dm.org/drlau/magejs) [![License](https://img.shields.io/badge/license-MIT-blue.svg)](./LICENSE.md) [![eris](https://img.shields.io/badge/js-eris-blue.svg)](https://abal.moe/Eris/)
+# magejs [![Dependant Status](https://david-dm.org/drlau/magejs/status.svg)](https://david-dm.org/drlau/magejs) [![License](https://img.shields.io/badge/license-MIT-blue.svg)](./LICENSE) [![eris](https://img.shields.io/badge/js-eris-blue.svg)](https://abal.moe/Eris/)
 Mage is a Discord bot for the Good Question Discord Server using the Eris library.
 
 # Setup
