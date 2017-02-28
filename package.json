@@ -1,6 +1,6 @@
 {
     "name": "magejs",
-    "version": "1.1.0",
+    "version": "1.1.1",
     "description": "A Discord bot using Eris Library",
     "keywords": ["discord", "eris"],
     "repository": {
@@ -11,9 +11,9 @@
     "license": "GPL",
     "dependencies": {
         "bluebird": "^3.4.7",
-        "cleverbot-node": "^0.3.3",
+        "cleverbot-node": "^0.3.5",
         "eris": "^0.5.2",
-        "mathjs": "^3.9.2",
+        "mathjs": "^3.9.3",
         "node-opus": "^0.2.4",
         "request": "^2.79.0",
         "ytdl-core": "^0.9.0"

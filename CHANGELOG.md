@@ -1,3 +1,10 @@
+## 1.1.1 (2017-02-27)
+
+  - Added animeirl command.
+  - Updated some dependencies
+  - Updated info command to get version number from package.json. Removed version from config as a result.
+  - Fixed autoGreen's handling of empty messages. Again.
+
 ## 1.1.0 (2017-02-19)
 
   - Mage moved to Node.js.

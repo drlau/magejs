@@ -7,7 +7,7 @@ const commands = Mage.commands;
 
 bot.on("messageCreate", async (message) => {
     if (message.author.bot) return;
-    if (!message.channel.recipient && message.content.startsWith(">") && Magic.autoGreen){
+    if (!message.channel.recipient && message.content.startsWith(">") && Magic.autoGreen && message.content.length > 1){
       let output = "";
       output += message.author.mention + ": \n";
       output += "```css\n";
@@ -16,7 +16,7 @@ bot.on("messageCreate", async (message) => {
       message.channel.createMessage(output);
       return;
     }
-    
+
     if (message.content.startsWith(Magic.getBotMention())) {
       content = message.content.substring(Magic.getBotMention().length, message.length).trim()
       if (!content) {
