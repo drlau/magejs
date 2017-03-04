@@ -2,7 +2,7 @@
 
   - Fixed animeirl not escaping \&amp;
     - When I initially created animeirl, Reddit was having a hiccup and was being slow. It's actually pretty quick, so updated accordingly.
-  - No longer need to \@Mention Mage to call Cleverbot in a DM
+  - No longer need to @Mention Mage to call Cleverbot in a DM
 
 ## 1.1.1 (2017-02-27)
 
