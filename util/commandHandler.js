@@ -18,24 +18,8 @@ bot.on("messageCreate", async (message) => {
     }
 
     if (message.content.startsWith(Magic.getBotMention())) {
-      content = message.content.substring(Magic.getBotMention().length, message.length).trim()
-      if (!content) {
-        if (message.author.id == Magic.config.author) {
-          response = Magic.getRandomString(mentionResponses.authorResponse);
-          message.channel.createMessage(response);
-        } else {
-          response = Magic.getRandomString(mentionResponses.response);
-          message.channel.createMessage(response);
-        }
-      } else {
-        message.channel.sendTyping();
-        response = await Magic.getCleverResponse(content);
-        if (!response) {
-          message.channel.createMessage("Sorry, I don't know how to respond to that.");
-        } else {
-          message.channel.createMessage(response);
-        }
-      }
+      content = message.content.substring(Magic.getBotMention().length, message.length).trim();
+      messageResponse(content, message);
     } else if (message.content.startsWith(Magic.config.prefix)){
       let cmdInfo = Magic.getCmd(message.content.substring(Magic.config.prefix.length, message.content.length));
   		var command = cmdInfo.cmd;
@@ -48,5 +32,27 @@ bot.on("messageCreate", async (message) => {
       if (command) {
         command.run(message);
       }
+    } else if (!message.channel.guild) {
+      messageResponse(message.content, message);
     }
 });
+
+async function messageResponse(content, message) {
+  if (!content) {
+    if (message.author.id == Magic.config.author) {
+      response = Magic.getRandomString(mentionResponses.authorResponse);
+      message.channel.createMessage(response);
+    } else {
+      response = Magic.getRandomString(mentionResponses.response);
+      message.channel.createMessage(response);
+    }
+  } else {
+    message.channel.sendTyping();
+    response = await Magic.getCleverResponse(content);
+    if (!response) {
+      message.channel.createMessage("Sorry, I don't know how to respond to that.");
+    } else {
+      message.channel.createMessage(response);
+    }
+  }
+}

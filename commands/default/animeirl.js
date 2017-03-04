@@ -1,15 +1,15 @@
 exports.cmd = new Mage.Command("animeirl", async message => {
-  let msg = await message.channel.createMessage("This usually takes around 10-15 seconds. Reddit is slow.");
+  let sent = undefined;
   message.channel.sendTyping();
   setTimeout(function() {
-    if (!msg.editedTimestamp) {
-      msg.edit("Looks like it timed out.");
+    if (!sent) {
+      message.channel.createMessage("Looks like it timed out.");
     }
-  }, 30000);
+  }, 20000);
 	let body = await Magic.getContent("https://www.reddit.com/r/anime_irl/random/.json");
 	body = JSON.parse(body)[0].data.children[0].data;
-  msg = await msg.edit(body.url);
+  sent = await message.channel.createMessage(body.url.replace(/&amp;/g, '&'));
 }, {
 	type: "default",
-	description: "Anime irl. Usually takes a while to get."
+	description: "Anime irl."
 });
