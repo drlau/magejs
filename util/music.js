@@ -121,7 +121,7 @@ class MusicManager {
 
 	async connect(channel) {
 		if(this.connection) return false;
-		if(bot.voiceConnections.guilds[this.id] && !bot.voiceConnections.guilds[this.id].ended) return false;
+		//if(bot.voiceConnections.guilds[this.id] && !bot.voiceConnections.guilds[this.id].ended) return false;
 
     if(!channel.permissionsOf(bot.user.id).has("voiceConnect")) {
   		return "I can't join that channel (no permissions)";
