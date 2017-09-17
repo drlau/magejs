@@ -28,7 +28,7 @@ exports.cmd = new Mage.Command("help", async message => {
   } else {
     let cmds = {};
     for(var cmdType in Mage.commands) {
-      if (cmdType == "author") continue; // Don't show author only commands
+      if (cmdType == "author" && message.author.id != Magic.config.author) continue; // Don't show author only commands
   		cmds[cmdType] = [];
   		for(var cmd in Mage.commands[cmdType]) {
   			cmd = Mage.commands[cmdType][cmd];

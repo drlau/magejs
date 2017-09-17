@@ -22,9 +22,9 @@ exports.cmd = new Mage.Command("userinfo", async message => {
   let output = "";
   output += "**ID:** " + user.id + "\n";
   output += "**Username:** " + user.username + "\n";
-  output += "**Avatar:** " + user.dynamicAvatarURL("png", 512) + "\n";
+  output += "**Avatar:** " + user.user.dynamicAvatarURL("png", 1024) + "\n";
   output += "**Game:** " + (user.game ? user.game.name : "Nothing") + "\n";
-  output += "**Account creation date:** " + Magic.formatDate(user.createdAt) + "\n";
+  output += "**Account creation date:** " + Magic.formatDate(user.user.createdAt) + "\n";
   if (message.channel.guild) output += "**Guild join date:** " + Magic.formatDate(user.joinedAt) + "\n";
 
   message.channel.createMessage(output);
