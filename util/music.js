@@ -240,6 +240,8 @@ exports.playlistVideos = async (id, page = "", videos = []) => {
 	let items = body.items;
 
 	for(var i = 0; i < items.length; i++) {
+		// TODO: Null videos
+		
 		videos.push(items[i].snippet.resourceId.videoId);
 	}
 
