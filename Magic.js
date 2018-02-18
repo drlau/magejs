@@ -163,8 +163,9 @@ exports.loadScripts = (filePath) => {
 exports.logToDev = (type, err) => {
 	stackTrace = err.stack.substring(0, 1950) || err.stack;
 	devGuild = bot.guilds.find(ch => ch.id == this.config.devGuild);
+	stChannel = devGuild.channels.find(ch => ch.name == "stack-trace");
 
-	devGuild.defaultChannel.createMessage(type + ": \n```" + stackTrace + "```");
+	stChannel.createMessage(type + ": \n```" + stackTrace + "```");
 }
 
 exports.randomInt = (min, max) => {
