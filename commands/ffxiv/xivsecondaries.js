@@ -12,6 +12,6 @@ exports.cmd = new Mage.Command("secondaries", async message => {
 
   message.channel.createMessage(output);
 }, {
-	type: "default",
+	type: "FFXIV",
 	description: "Displays information about secondary stats in FFXIV."
 });

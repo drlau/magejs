@@ -17,7 +17,7 @@ exports.cmd = new Mage.Command("sweight", async message => {
     message.channel.createMessage("No data :(");
   }
 }, {
-	type: "default",
+	type: "FFXIV",
 	description: "Displays the stat weights of the specified class in FFXIV.",
   args: [{
 		type: "string",

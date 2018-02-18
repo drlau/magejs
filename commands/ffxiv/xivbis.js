@@ -15,7 +15,7 @@ exports.cmd = new Mage.Command("bis", async message => {
     message.channel.createMessage("No data found for " + message.args[0]);
   }
 }, {
-	type: "default",
+	type: "FFXIV",
 	description: "Displays the BiS sets of the specified class in FFXIV.",
   args: [{
 		type: "string",

@@ -1,3 +1,12 @@
+## 1.1.3 (2018-02-18)
+
+  - Updated dependencies for the new age
+  - Removed XIV accuracy since it's no longer in the game
+  - Added XIV Secondaries and XIV BIS
+  - Added Vote function
+  - Added some author only commands
+  - Added Megumeme, lewd, and Ugoki reaction images
+
 ## 1.1.2 (2017-03-03)
 
   - Fixed animeirl not escaping \&amp;

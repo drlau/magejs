@@ -36,16 +36,12 @@ exports.cmd = new Mage.Command("help", async message => {
   		}
   	}
 
-  	var helpMsg = "", totalAmt = 0;
-
-    helpMsg += "Hello! Here's what I can do!\n";
+  	var helpMsg = "Hello! Here's what I can do!\n";
 
   	for(var loopType in cmds) {
       helpMsg += Magic.capitalizeFirstLetter(loopType) + ":\n"
           helpMsg += "```md\n";
   		cmds[loopType] = cmds[loopType].sort();
-  		var length = Object.keys(cmds[loopType]).length;
-  		totalAmt += length;
   		helpMsg += cmds[loopType].join("\n") + "\n";
       helpMsg += "```\n";
   	}
