@@ -1,5 +1,3 @@
-const patch = "3.4";
-
 exports.cmd = new Mage.Command("secondaries", async message => {
   output = "";
   output += "Information based on data found here: https://goo.gl/f2Bk9u\n";

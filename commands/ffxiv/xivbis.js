@@ -1,5 +1,5 @@
 const bisJson = require("./bis.json");
-const patch = "4.2";
+const patch = "4.4";
 
 exports.cmd = new Mage.Command("bis", async message => {
   if (!message.args[0]) return;

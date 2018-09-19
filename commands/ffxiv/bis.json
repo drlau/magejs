@@ -1,93 +1,88 @@
 {
   "PLD":
     {
-      "2.43 GCD": "http://ffxiv.ariyala.com/14ZJP"
+      "2.43 GC(Patch 4.3)D": "http://ffxiv.ariyala.com/14ZJP"
     },
   "WAR":
     {
-      "Slowboye - 2.43 GCD": "http://ffxiv.ariyala.com/150LY",
-      "The American - 2.38 GCD": "http://ffxiv.ariyala.com/15349",
-      "The Cancerous One Trick - 2.38 GCD": "http://ffxiv.ariyala.com/151EI"
+      "Slowboye - 2.43 GCD(Patch 4.3)": "http://ffxiv.ariyala.com/150LY",
+      "The American - 2.38 GCD(Patch 4.3)": "http://ffxiv.ariyala.com/15349",
+      "The Cancerous One Trick - 2.38 GCD(Patch 4.3)": "http://ffxiv.ariyala.com/151EI"
     },
   "DRK":
     {
-      "Slowboye, 2.42 GCD, 2.17 Blood Weapon": "http://ffxiv.ariyala.com/14X7F",
-      "Fastboye, 2.37 GCD, 2.13 Blood Weapon": "http://ffxiv.ariyala.com/14X38",
-      "Sanicboye, 2.33 GCD, 2.10 Blood Weapon": "http://ffxiv.ariyala.com/14X8S"
+      "Slowboye, 2.42 GCD, 2.17 Blood Weapon(Patch 4.3)": "http://ffxiv.ariyala.com/14X7F",
+      "Fastboye, 2.37 GCD, 2.13 Blood Weapon(Patch 4.3)": "http://ffxiv.ariyala.com/14X38",
+      "Sanicboye, 2.33 GCD, 2.10 Blood Weapon(Patch 4.3)": "http://ffxiv.ariyala.com/14X8S"
     },
   "WHM":
     {
-      "High piety without dh": "http://ffxiv.ariyala.com/158ME",
-      "High piety with dh": "http://ffxiv.ariyala.com/158M8",
-      "Low piety without dh": "http://ffxiv.ariyala.com/158M3",
-      "Low piety with dh": "http://ffxiv.ariyala.com/158LV"
+      "High piety without dh(Patch 4.3)": "http://ffxiv.ariyala.com/158ME",
+      "High piety with dh(Patch 4.3)": "http://ffxiv.ariyala.com/158M8",
+      "Low piety without dh(Patch 4.3)": "http://ffxiv.ariyala.com/158M3",
+      "Low piety with dh(Patch 4.3)": "http://ffxiv.ariyala.com/158LV"
     },
   "AST":
     {
-      "High piety without dh": "http://ffxiv.ariyala.com/158PS",
-      "High piety with dh": "http://ffxiv.ariyala.com/158P8",
-      "Low piety without dh": "http://ffxiv.ariyala.com/158OX",
-      "Low piety with dh": "http://ffxiv.ariyala.com/158OE"
+      "High piety without dh(Patch 4.3)": "http://ffxiv.ariyala.com/158PS",
+      "High piety with dh(Patch 4.3)": "http://ffxiv.ariyala.com/158P8",
+      "Low piety without dh(Patch 4.3)": "http://ffxiv.ariyala.com/158OX",
+      "Low piety with dh(Patch 4.3)": "http://ffxiv.ariyala.com/158OE"
     },
   "SCH":
     {
-      "High piety without dh": "http://ffxiv.ariyala.com/158O7",
-      "High piety with dh": "http://ffxiv.ariyala.com/158O0",
-      "Low piety without dh": "http://ffxiv.ariyala.com/158NT",
-      "Low piety with dh": "http://ffxiv.ariyala.com/158NM"
+      "High piety without dh(Patch 4.3)": "http://ffxiv.ariyala.com/158O7",
+      "High piety with dh(Patch 4.3)": "http://ffxiv.ariyala.com/158O0",
+      "Low piety without dh(Patch 4.3)": "http://ffxiv.ariyala.com/158NT",
+      "Low piety with dh(Patch 4.3)": "http://ffxiv.ariyala.com/158NM"
     },
   "DRG":
     {
-      "2.46 GCD": "http://ffxiv.ariyala.com/154TM",
-      "2.44 GCD": "http://ffxiv.ariyala.com/14T6Q",
-      "2.43 GCD": "http://ffxiv.ariyala.com/14T6S",
-      "2.41 GCD": "http://ffxiv.ariyala.com/14T76"
+      "(Tentative) Fastboye 2405 SkS": "http://ffxiv.ariyala.com/177YS",
+      "(Tentative) Critboye 2557 Crit": "http://ffxiv.ariyala.com/175G9"
     },
   "MNK":
     {
-      "723 SKS - GCD 2.07 - DPS 6764.668": "http://ffxiv.ariyala.com/15B2G",
-      "986 SKS - GCD 2.04 - DPS 6777.803": "http://ffxiv.ariyala.com/15B2L",
-      "1124 SKS - GCD 2.02 - DPS 6781.345": "http://ffxiv.ariyala.com/15B2O",
-      "1284 SKS - GCD 2.00 - DPS 6780.87": "http://ffxiv.ariyala.com/15B2Q"
+      "723 SKS - GCD 2.07 - DPS 6764.668(Patch 4.3)": "http://ffxiv.ariyala.com/15B2G",
+      "986 SKS - GCD 2.04 - DPS 6777.803(Patch 4.3)": "http://ffxiv.ariyala.com/15B2L",
+      "1124 SKS - GCD 2.02 - DPS 6781.345(Patch 4.3)": "http://ffxiv.ariyala.com/15B2O",
+      "1284 SKS - GCD 2.00 - DPS 6780.87(Patch 4.3)": "http://ffxiv.ariyala.com/15B2Q"
     },
   "NIN":
     {
-      "Likely BiS": "http://ffxiv.ariyala.com/14XYQ"
+      "Theorycrafted w/pentameld ring": "http://ffxiv.ariyala.com/176A5",
+      "Theorycraft poorfag": "http://ffxiv.ariyala.com/177WJ"
     },
   "SAM":
     {
-      "Many BiS Sets": "https://goo.gl/mcS1x9"
+      "Many BiS Sets(Patch 4.3)": "https://goo.gl/mcS1x9"
     },
   "BRD":
     {
-      "High Dex": "http://ffxiv.ariyala.com/14QR9",
-      "High Crit": "http://ffxiv.ariyala.com/14QQS",
-      "Crafted Bracelet": "http://ffxiv.ariyala.com/14QQ9",
-      "2x Tome Ring": "http://ffxiv.ariyala.com/14QR4",
-      "2.40 GCD": "http://ffxiv.ariyala.com/14QQY"
+      "(Tentative) 2.47 GCD": "http://ffxiv.ariyala.com/1762U",
+      "(Tentative) 2.48 GCD": "http://ffxiv.ariyala.com/17587"
     },
   "MCH":
     {
-      "2.47 GCD": "http://ffxiv.ariyala.com/159XA",
-      "2.46 GCD": "http://ffxiv.ariyala.com/159Y8",
-      "2.42 GCD": "http://ffxiv.ariyala.com/159YR"
+      "(Tentative) 903 SkS": "http://ffxiv.ariyala.com/175UM",
+      "(Tentative) 753 SkS w/double tome ring": "http://ffxiv.ariyala.com/177GP",
+      "(Tentative) 504 SkS w/double tome ring + tome wep": "http://ffxiv.ariyala.com/177GB"
     },
   "BLM":
     {
-      "Max Crit": "http://ffxiv.ariyala.com/154H1",
-      "Max SS": "http://ffxiv.ariyala.com/1568B",
-      "1930 SS": "http://ffxiv.ariyala.com/14Z0Y",
-      "Low Crit": "http://ffxiv.ariyala.com/15B38"
+      "Max Crit(Patch 4.3)": "http://ffxiv.ariyala.com/154H1",
+      "Max SS(Patch 4.3)": "http://ffxiv.ariyala.com/1568B",
+      "1930 SS(Patch 4.3)": "http://ffxiv.ariyala.com/14Z0Y",
+      "Low Crit(Patch 4.3)": "http://ffxiv.ariyala.com/15B38"
     },
   "SMN":
     {
-      "Tentative BiS": "https://nemekh.s-ul.eu/c5YcpUZi"
+      "2.48 GCD": "http://ffxiv.ariyala.com/1770B",
+      "2.45 GCD": "http://ffxiv.ariyala.com/1771J",
+      "2.43 GCD": "http://ffxiv.ariyala.com/1772A"
     },
   "RDM":
     {
-      "2.47 GCD": "http://ffxiv.ariyala.com/15GJW",
-      "2.47 GCD w/vit melds": "http://ffxiv.ariyala.com/15GKI",
-      "2.48 GCD": "http://ffxiv.ariyala.com/15GK2",
-      "2.48 GCD w/vit melds": "http://ffxiv.ariyala.com/15GKK"
+      "2.48 GCD": "http://ffxiv.ariyala.com/175SX"
     }
 }
