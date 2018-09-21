@@ -1,19 +1,21 @@
 {
   "PLD":
     {
-      "2.43 GCD(Patch 4.3)": "http://ffxiv.ariyala.com/14ZJP"
+      "2.4 GCD - Standard Build": "http://ffxiv.ariyala.com/17C3Y",
+      "2.43 GCD - Poorboye Build": "http://ffxiv.ariyala.com/17C5Q"
     },
   "WAR":
     {
-      "Slowboye - 2.43 GCD(Patch 4.3)": "http://ffxiv.ariyala.com/150LY",
-      "The American - 2.38 GCD(Patch 4.3)": "http://ffxiv.ariyala.com/15349",
-      "The Cancerous One Trick - 2.38 GCD(Patch 4.3)": "http://ffxiv.ariyala.com/151EI"
+      "2.38 GCD - Comfy Triple Crafted - One Tnc meld for a tier upgrade": "http://ffxiv.ariyala.com/17BCT",
+      "2.37 GCD - Greed For Speed": "http://ffxiv.ariyala.com/176LI",
+      "2.38 GCD - Poorboye": "http://ffxiv.ariyala.com/175A3",
+      "2.42 GCD - What Is Coffer?": "http://ffxiv.ariyala.com/17C9I"
     },
   "DRK":
     {
-      "Slowboye, 2.42 GCD, 2.17 Blood Weapon(Patch 4.3)": "http://ffxiv.ariyala.com/14X7F",
-      "Fastboye, 2.37 GCD, 2.13 Blood Weapon(Patch 4.3)": "http://ffxiv.ariyala.com/14X38",
-      "Sanicboye, 2.33 GCD, 2.10 Blood Weapon(Patch 4.3)": "http://ffxiv.ariyala.com/14X8S"
+      "2.37 GCD - Squaresoft pls": "http://ffxiv.ariyala.com/17BXL",
+      "2.32 GCD - Sanicboye": "http://ffxiv.ariyala.com/17C0H",
+      "2.34 GCD - Poorboye (raid accessories only)": "http://ffxiv.ariyala.com/17BWP"
     },
   "WHM":
     {
@@ -43,10 +45,12 @@
     },
   "MNK":
     {
-      "723 SKS - GCD 2.07 - DPS 6764.668(Patch 4.3)": "http://ffxiv.ariyala.com/15B2G",
-      "986 SKS - GCD 2.04 - DPS 6777.803(Patch 4.3)": "http://ffxiv.ariyala.com/15B2L",
-      "1124 SKS - GCD 2.02 - DPS 6781.345(Patch 4.3)": "http://ffxiv.ariyala.com/15B2O",
-      "1284 SKS - GCD 2.00 - DPS 6780.87(Patch 4.3)": "http://ffxiv.ariyala.com/15B2Q"
+      "2.07 GCD | 770 SkS | DPS 8417.50": "http://ffxiv.ariyala.com/17BGK",
+      "2.06 GCD | 819 SkS | DPS 8433.16": "http://ffxiv.ariyala.com/17BD8",
+      "2.05 GCD | 883 SkS | DPS 8422.07": "http://ffxiv.ariyala.com/17BDG",
+      "2.04 GCD | 969 SkS | DPS 8426.12": "http://ffxiv.ariyala.com/17BDP",
+      "2.03 GCD | 1049 SkS | DPS 8423.65": "http://ffxiv.ariyala.com/17BDV",
+      "2.00 GCD | 1284 SkS | DPS 8394.70": "http://ffxiv.ariyala.com/17BH1"
     },
   "NIN":
     {
