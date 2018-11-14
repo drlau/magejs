@@ -25,6 +25,7 @@ exports.cmd = new Mage.Command("userinfo", async message => {
   output += "**Avatar:** " + user.user.dynamicAvatarURL("png", 1024) + "\n";
   output += "**Game:** " + (user.game ? user.game.name : "Nothing") + "\n";
   output += "**Account creation date:** " + Magic.formatDate(user.user.createdAt) + "\n";
+  // TODO: FIX
   if (message.channel.guild) output += "**Guild join date:** " + Magic.formatDate(user.joinedAt) + "\n";
 
   message.channel.createMessage(output);

@@ -19,29 +19,31 @@
     },
   "WHM":
     {
-      "High piety without dh(Patch 4.3)": "http://ffxiv.ariyala.com/158ME",
-      "High piety with dh(Patch 4.3)": "http://ffxiv.ariyala.com/158M8",
-      "Low piety without dh(Patch 4.3)": "http://ffxiv.ariyala.com/158M3",
-      "Low piety with dh(Patch 4.3)": "http://ffxiv.ariyala.com/158LV"
+      "Low mp with DH": "http://ffxiv.ariyala.com/17O37",
+      "Low mp avoiding DH": "http://ffxiv.ariyala.com/17O45",
+      "High mp with DH": "http://ffxiv.ariyala.com/17PML",
+      "High mp avoiding DH": "http://ffxiv.ariyala.com/17PMM"
     },
   "AST":
     {
-      "High piety without dh(Patch 4.3)": "http://ffxiv.ariyala.com/158PS",
-      "High piety with dh(Patch 4.3)": "http://ffxiv.ariyala.com/158P8",
-      "Low piety without dh(Patch 4.3)": "http://ffxiv.ariyala.com/158OX",
-      "Low piety with dh(Patch 4.3)": "http://ffxiv.ariyala.com/158OE"
+      "Low MP, DH": "http://ffxiv.ariyala.com/17O5H",
+      "Low MP, no DH": "http://ffxiv.ariyala.com/17O6F",
+      "High MP, DH": "http://ffxiv.ariyala.com/17O5L",
+      "High MP, no DH": "http://ffxiv.ariyala.com/17O69",
+      "A good Omega wep set": "http://ffxiv.ariyala.com/17LYV"
     },
   "SCH":
     {
-      "High piety without dh(Patch 4.3)": "http://ffxiv.ariyala.com/158O7",
-      "High piety with dh(Patch 4.3)": "http://ffxiv.ariyala.com/158O0",
-      "Low piety without dh(Patch 4.3)": "http://ffxiv.ariyala.com/158NT",
-      "Low piety with dh(Patch 4.3)": "http://ffxiv.ariyala.com/158NM"
+      "Comfy Build (2.42 GCD, 1231 Piety)": "http://ffxiv.ariyala.com/17GBZ",
+      "Ramza melds variant (2.4 GCD, 1151 Piety)": "http://ffxiv.ariyala.com/17GHT",
+      "No crafted ring (2.4 GCD, 1151 Piety)": "http://ffxiv.ariyala.com/17G99",
+      "Comfy DH Build (2.42 GCD, 1151 Piety)": "http://ffxiv.ariyala.com/17IKP",
+      "High damage for speed kills (2.37 GCD, 924 Piety)": "http://ffxiv.ariyala.com/17GBM"
     },
   "DRG":
     {
-      "(Tentative) Fastboye 2405 SkS": "http://ffxiv.ariyala.com/177YS",
-      "(Tentative) Critboye 2557 Crit": "http://ffxiv.ariyala.com/175G9"
+      "High Crit; 2.45 GCD": "http://ffxiv.ariyala.com/175G9",
+      "High SkS; 2.19 GCD": "http://ffxiv.ariyala.com/17IJT"
     },
   "MNK":
     {
@@ -54,30 +56,29 @@
     },
   "NIN":
     {
-      "Theorycrafted w/pentameld ring": "http://ffxiv.ariyala.com/176A5",
-      "Theorycraft poorfag": "http://ffxiv.ariyala.com/177WJ"
+      "2.10 GCD Set(w/pentamelded ring)": "http://ffxiv.ariyala.com/17GNY",
+      "2.08 GCD Set(poorfag)": "http://ffxiv.ariyala.com/177WJ"
     },
   "SAM":
     {
-      "Many BiS Sets(Patch 4.3)": "https://goo.gl/mcS1x9"
+      "Many BiS Sets": "http://bit.ly/SAM-BIS"
     },
   "BRD":
     {
-      "(Tentative) 2.47 GCD": "http://ffxiv.ariyala.com/1762U",
-      "(Tentative) 2.48 GCD": "http://ffxiv.ariyala.com/17587"
+      "2.47 GCD": "http://ffxiv.ariyala.com/1762U",
+      "2.48 GCD": "http://ffxiv.ariyala.com/17587"
     },
   "MCH":
     {
-      "(Tentative) 903 SkS": "http://ffxiv.ariyala.com/175UM",
-      "(Tentative) 753 SkS w/double tome ring": "http://ffxiv.ariyala.com/177GP",
-      "(Tentative) 504 SkS w/double tome ring + tome wep": "http://ffxiv.ariyala.com/177GB"
+      "2.43 GCD": "http://ffxiv.ariyala.com/17B4A",
+      "2.44 GCD": "http://ffxiv.ariyala.com/17BFJ",
+      "2.48 GCD": "http://ffxiv.ariyala.com/17B5U"
     },
   "BLM":
     {
-      "Max Crit(Patch 4.3)": "http://ffxiv.ariyala.com/154H1",
-      "Max SS(Patch 4.3)": "http://ffxiv.ariyala.com/1568B",
-      "1930 SS(Patch 4.3)": "http://ffxiv.ariyala.com/14Z0Y",
-      "Low Crit(Patch 4.3)": "http://ffxiv.ariyala.com/15B38"
+      "Max Crit": "http://ffxiv.ariyala.com/179S5",
+      "High SS": "http://ffxiv.ariyala.com/17NAI",
+      "SMN-BiS Compatible": "http://ffxiv.ariyala.com/17S8Q"
     },
   "SMN":
     {
@@ -87,6 +88,6 @@
     },
   "RDM":
     {
-      "2.48 GCD": "http://ffxiv.ariyala.com/175SX"
+      "BiS": "http://ffxiv.ariyala.com/17L25"
     }
 }
