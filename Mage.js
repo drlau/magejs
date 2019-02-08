@@ -3,6 +3,7 @@ const FS = require("fs");
 
 global.Promise = require("bluebird");
 global.Magic = require("./Magic.js");
+global.Vars = require("./vars.js");
 global.bot = new Eris.Client(Magic.config.token, {});
 
 bot.on("ready", () => { // When the bot is ready

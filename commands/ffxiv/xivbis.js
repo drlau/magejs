@@ -1,10 +1,10 @@
 const bisJson = require("./bis.json");
-const patch = "4.4";
 
 exports.cmd = new Mage.Command("bis", async message => {
   if (!message.args[0]) return;
   capitalized = message.args[0].toUpperCase();
   if (capitalized in bisJson) {
+    patch = vars.getXivPatch();
     jobBis = bisJson[capitalized];
     output = "BiS for **" + capitalized + "** for patch " + patch + ":\n\n";
     for (set in jobBis) {
