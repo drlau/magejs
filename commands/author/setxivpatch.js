@@ -18,5 +18,9 @@ exports.cmd = new Mage.Command("setxivpatch", async message => {
   message.channel.createMessage("XIV Patch set to " + Vars.xivPatch + "!");
 }, {
 	type: "author",
-	description: "Sets the FFXIV Patch Number. Author only."
+	description: "Sets the FFXIV Patch Number. Author only.",
+  args: [{
+    type: "string",
+    label: "Patch Number",
+  }]
 });

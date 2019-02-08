@@ -11,10 +11,10 @@ bot.on("ready", () => { // When the bot is ready
     console.log("Ready!"); // Log "Ready!"
 });
 
-bot.on("guildCreate", (guild) => {
-	bot.createMessage(guild.defaultChannel.id, "Hello! I'm Mage, a bot created by Violet!\n"
-					+ "I'm still in development and you can find my commands by typing !help");
-});
+// bot.on("guildCreate", (guild) => {
+// 	bot.createMessage(guild.defaultChannel.id, "Hello! I'm Mage, a bot created by Violet!\n"
+// 					+ "I'm still in development and you can find my commands by typing !help");
+// });
 
 process.stdin.resume();
 process.on("SIGINT", () => {

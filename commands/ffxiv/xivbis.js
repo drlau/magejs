@@ -4,9 +4,8 @@ exports.cmd = new Mage.Command("bis", async message => {
   if (!message.args[0]) return;
   capitalized = message.args[0].toUpperCase();
   if (capitalized in bisJson) {
-    patch = Vars.getXivPatch();
     jobBis = bisJson[capitalized];
-    output = "BiS for **" + capitalized + "** for patch " + patch + ":\n\n";
+    output = "BiS for **" + capitalized + "** for patch " + Vars.xivPatch + ":\n\n";
     for (set in jobBis) {
       output += set + ": " + jobBis[set] + "\n";
     }
