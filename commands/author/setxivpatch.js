@@ -14,7 +14,7 @@ exports.cmd = new Mage.Command("setxivpatch", async message => {
   }
 
   xivPatch = message.args[0];
-  vars.setXivPatch(xivPatch);
+  Vars.setXivPatch(xivPatch);
   message.channel.createMessage("XIV Patch set to " + xivPatch + "!");
 }, {
 	type: "author",
