@@ -1,4 +1,4 @@
-const responses = require("../../responses/ping.json");
+const responses = require("../../resources/responses/ping.json");
 
 exports.cmd = new Mage.Command("ping", async message => {
   let time = Date.now();

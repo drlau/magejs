@@ -1,6 +1,6 @@
 const Mage = require("../Mage.js");
 const Magic = require("../Magic.js");
-const mentionResponses = require("../responses/mention.json");
+const mentionResponses = require("../resources/responses/mention.json");
 
 const bot = Mage.bot;
 const commands = Mage.commands;

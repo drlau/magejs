@@ -19,6 +19,10 @@ exports.capitalizeFirstLetter = (string) => {
     return string.charAt(0).toUpperCase() + string.slice(1);
 }
 
+exports.checkIfFileExists = (path) => {
+	return fs.existsSync(path);
+}
+
 exports.findCommand = (cmdSearch) => {
 	let commands = Mage.commands;
 	for(let cmdType in commands) {
@@ -163,9 +167,13 @@ exports.loadScripts = (filePath) => {
 exports.logToDev = (type, err) => {
 	stackTrace = err.stack.substring(0, 1950) || err.stack;
 	devGuild = bot.guilds.find(ch => ch.id == this.config.devGuild);
-	stChannel = devGuild.channels.find(ch => ch.name == "stack-trace");
+	if (devGuild) {
+		stChannel = devGuild.channels.find(ch => ch.name == "stack-trace");
 
-	stChannel.createMessage(type + ": \n```" + stackTrace + "```");
+		stChannel.createMessage(type + ": \n```" + stackTrace + "```");
+	} else {
+		console.log(err.stack);
+	}
 }
 
 exports.randomInt = (min, max) => {
@@ -199,4 +207,13 @@ exports.shuffleArray = (array) => {
   }
 
   return array;
+}
+
+exports.writeToFile = (filePath, content) => {
+	return new Promise((resolve, reject) => {
+		fs.writeFile(filePath, content, function(err) {
+			if (err) reject(err);
+			else resolve(content);
+		});
+	});
 }

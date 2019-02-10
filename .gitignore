@@ -12,6 +12,7 @@ Config.json
 dev.json
 /img/
 /responses/
+/resources/
 
 # Logs
 logs
