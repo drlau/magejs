@@ -8,8 +8,7 @@ ehthumbs.db
 /out/
 
 # Mage
-Config.json
-dev.json
+config.json
 /img/
 /responses/
 /resources/

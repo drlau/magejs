@@ -5,7 +5,7 @@ const request = require("request");
 const Cleverbot = require("cleverbot-node");
 const cbot = new Cleverbot();
 
-exports.config = require("./Config.json");
+exports.config = require("./config.json");
 cbot.configure({botapi: this.config.cleverbotKey});
 
 global.Mage = Mage;
