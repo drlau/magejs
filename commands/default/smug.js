@@ -1,5 +1,5 @@
 exports.cmd = new Mage.Command("smug", async message => {
-  let images = await Magic.getFiles("./img/smug/");
+  let images = await Magic.getFiles("./resources/smug/");
   index = Magic.randomInt(0, images.length);
   Magic.sendImage(images[index], message);
 }, {

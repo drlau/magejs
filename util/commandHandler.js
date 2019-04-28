@@ -20,8 +20,8 @@ bot.on("messageCreate", async (message) => {
     if (message.content.startsWith(Magic.getBotMention())) {
       content = message.content.substring(Magic.getBotMention().length, message.length).trim();
       messageResponse(content, message);
-    } else if (message.content.startsWith(Magic.config.prefix)){
-      let cmdInfo = Magic.getCmd(message.content.substring(Magic.config.prefix.length, message.content.length));
+    } else if (message.content.startsWith(Magic.config.PREFIX)){
+      let cmdInfo = Magic.getCmd(message.content.substring(Magic.config.PREFIX.length, message.content.length));
   		var command = cmdInfo.cmd;
       if (!command) return;
       if (command.guildOnly && !message.channel.guild) return;
@@ -39,7 +39,7 @@ bot.on("messageCreate", async (message) => {
 
 async function messageResponse(content, message) {
   if (!content) {
-    if (message.author.id == Magic.config.author) {
+    if (message.author.id == Magic.config.AUTHOR) {
       response = Magic.getRandomString(mentionResponses.authorResponse);
       message.channel.createMessage(response);
     } else {

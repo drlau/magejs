@@ -1,0 +1,26 @@
+version: '3'
+
+services:
+  magejs:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: magejs
+    container_name: magejs
+    restart: unless-stopped
+    env_file: .env
+    environment:
+      - TOKEN=$TOKEN
+      - PREFIX=$PREFIX
+      - AUTHOR=$AUTHOR
+      - YOUTUBEKEY=$YOUTUBEKEY
+      - CLEVERBOTKEY=$CLEVERBOTKEY
+      - DEVGUILD=$DEVGUILD
+    volumes:
+      - .:/home/node/app
+      - node_modules:/home/node/app/node_modules
+      - resources:/home/node/app/resources
+
+volumes:
+  node_modules:
+  resources:

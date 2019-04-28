@@ -1,9 +1,9 @@
 exports.cmd = new Mage.Command("game", async message => {
-  if (message.author.id != Magic.config.author){
+  if (message.author.id != Magic.config.AUTHOR){
     return;
   }
 
-  let authorDM = await bot.getDMChannel(Magic.config.author);
+  let authorDM = await bot.getDMChannel(Magic.config.AUTHOR);
   if (message.channel != authorDM) return;
 
   let game = "";

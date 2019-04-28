@@ -1,6 +1,6 @@
 const yt = require("ytdl-core");
 const fs = require("fs");
-const ytKey = Magic.config.youtubeKey;
+const ytKey = Magic.config.YOUTUBEKEY;
 
 class MusicManager {
 	constructor(guild) {
@@ -160,7 +160,7 @@ class MusicManager {
 		if(!connection) return;
 
 		let error = async (err) => {
-			let authorDM = await bot.getDMChannel(Magic.config.author);
+			let authorDM = await bot.getDMChannel(Magic.config.AUTHOR);
 			authorDM.createMessage("Error occured!\n" + err.stack);
 		}
 		let end = () => {

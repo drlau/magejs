@@ -5,8 +5,8 @@ const request = require("request");
 const Cleverbot = require("cleverbot-node");
 const cbot = new Cleverbot();
 
-exports.config = require("./config.json");
-cbot.configure({botapi: this.config.cleverbotKey});
+exports.config = process.env;
+cbot.configure({botapi: this.config.CLEVERBOTKEY});
 
 global.Mage = Mage;
 exports.autoGreen = false;
@@ -166,7 +166,7 @@ exports.loadScripts = (filePath) => {
 
 exports.logToDev = (type, err) => {
 	stackTrace = err.stack.substring(0, 1950) || err.stack;
-	devGuild = bot.guilds.find(ch => ch.id == this.config.devGuild);
+	devGuild = bot.guilds.find(ch => ch.id == this.config.DEVGUILD);
 	if (devGuild) {
 		stChannel = devGuild.channels.find(ch => ch.name == "stack-trace");
 
@@ -210,6 +210,7 @@ exports.shuffleArray = (array) => {
 }
 
 exports.writeToFile = (filePath, content) => {
+	// TODO: All calls to this should probably use some persistent storage now.
 	return new Promise((resolve, reject) => {
 		fs.writeFile(filePath, content, function(err) {
 			if (err) reject(err);

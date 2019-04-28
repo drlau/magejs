@@ -1,9 +1,9 @@
 exports.cmd = new Mage.Command("restart", async message => {
-  if (message.author.id != Magic.config.author){
+  if (message.author.id != Magic.config.AUTHOR){
     return;
   }
 
-  let authorDM = await bot.getDMChannel(Magic.config.author);
+  let authorDM = await bot.getDMChannel(Magic.config.AUTHOR);
   if (message.channel != authorDM) return;
 
   await message.channel.createMessage("Shutting down...");

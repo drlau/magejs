@@ -4,17 +4,12 @@ const FS = require("fs");
 global.Promise = require("bluebird");
 global.Magic = require("./Magic.js");
 global.Vars = require("./util/vars.js");
-global.bot = new Eris.Client(Magic.config.token, {});
+global.bot = new Eris.Client(Magic.config.TOKEN, {});
 
-bot.on("ready", () => { // When the bot is ready
+bot.on("ready", () => {
 	bot.editStatus("online", {name: "Explosion!"})
-    console.log("Ready!"); // Log "Ready!"
+    console.log("Ready!");
 });
-
-// bot.on("guildCreate", (guild) => {
-// 	bot.createMessage(guild.defaultChannel.id, "Hello! I'm Mage, a bot created by Violet!\n"
-// 					+ "I'm still in development and you can find my commands by typing !help");
-// });
 
 process.stdin.resume();
 process.on("SIGINT", () => {

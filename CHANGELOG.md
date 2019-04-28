@@ -1,3 +1,7 @@
+## 1.2.0 (WIP)
+  - Bump dependencies. Shiny things for the shiny age.
+  - Containerized to run in Docker-Compose. Keep things small and contained.
+
 ## 1.1.3 (2018-02-18)
 
   - Updated dependencies for the new age
