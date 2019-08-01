@@ -1,93 +1,81 @@
 {
   "PLD":
     {
-      "2.4 GCD - Standard Build": "http://ffxiv.ariyala.com/17C3Y",
-      "2.43 GCD - Poorboye Build": "http://ffxiv.ariyala.com/17C5Q"
+      "2.42 GCD": "https://ffxiv.ariyala.com/19LZM"
     },
   "WAR":
     {
-      "2.38 GCD - Comfy Triple Crafted - One Tnc meld for a tier upgrade": "http://ffxiv.ariyala.com/17BCT",
-      "2.37 GCD - Greed For Speed": "http://ffxiv.ariyala.com/176LI",
-      "2.38 GCD - Poorboye": "http://ffxiv.ariyala.com/175A3",
-      "2.42 GCD - What Is Coffer?": "http://ffxiv.ariyala.com/17C9I"
+      "2.38 GCD": "https://ffxiv.ariyala.com/19W26",
+      "2.37 GCD": "https://ffxiv.ariyala.com/19VSN"
     },
   "DRK":
     {
-      "2.37 GCD - Squaresoft pls": "http://ffxiv.ariyala.com/17BXL",
-      "2.32 GCD - Sanicboye": "http://ffxiv.ariyala.com/17C0H",
-      "2.34 GCD - Poorboye (raid accessories only)": "http://ffxiv.ariyala.com/17BWP"
+      "2.43 GCD": "https://ffxiv.ariyala.com/19V2S",
+      "2.41 GCD": "https://ffxiv.ariyala.com/19V1U",
+      "2.4 GCD": "https://ffxiv.ariyala.com/19M2N",
+      "2.38 GCD": "https://ffxiv.ariyala.com/19R4J"
+    },
+  "GNB":
+    {
+      "2.4 GCD": "https://ffxiv.ariyala.com/19M1H"
     },
   "WHM":
     {
-      "Low mp with DH": "http://ffxiv.ariyala.com/17O37",
-      "Low mp avoiding DH": "http://ffxiv.ariyala.com/17O45",
-      "High mp with DH": "http://ffxiv.ariyala.com/17PML",
-      "High mp avoiding DH": "http://ffxiv.ariyala.com/17PMM"
+      "More blood for the blood lily": "(BiS not out yet)"
     },
   "AST":
     {
-      "Low MP, DH": "http://ffxiv.ariyala.com/17O5H",
-      "Low MP, no DH": "http://ffxiv.ariyala.com/17O6F",
-      "High MP, DH": "http://ffxiv.ariyala.com/17O5L",
-      "High MP, no DH": "http://ffxiv.ariyala.com/17O69",
-      "A good Omega wep set": "http://ffxiv.ariyala.com/17LYV"
+      "Unironically playing AST :thinking:": "(BiS not out yet)"
     },
   "SCH":
     {
-      "Comfy Build (2.42 GCD, 1231 Piety)": "http://ffxiv.ariyala.com/17GBZ",
-      "Ramza melds variant (2.4 GCD, 1151 Piety)": "http://ffxiv.ariyala.com/17GHT",
-      "No crafted ring (2.4 GCD, 1151 Piety)": "http://ffxiv.ariyala.com/17G99",
-      "Comfy DH Build (2.42 GCD, 1151 Piety)": "http://ffxiv.ariyala.com/17IKP",
-      "High damage for speed kills (2.37 GCD, 924 Piety)": "http://ffxiv.ariyala.com/17GBM"
+      "Thanks Yoshi": "https://twitter.com/nicocchin/status/1156572974281035776?s=20"
     },
   "DRG":
     {
-      "High Crit; 2.45 GCD": "http://ffxiv.ariyala.com/175G9",
-      "High SkS; 2.19 GCD": "http://ffxiv.ariyala.com/17IJT"
+      "Tentative BiS": "https://docs.google.com/spreadsheets/d/1bthsb3tUzGH_siZ_vgKqXOOlQqV5wblpK-XV7P2qO-4/edit?usp=sharing"
     },
   "MNK":
     {
-      "2.07 GCD | 770 SkS | DPS 8417.50": "http://ffxiv.ariyala.com/17BGK",
-      "2.06 GCD | 819 SkS | DPS 8433.16": "http://ffxiv.ariyala.com/17BD8",
-      "2.05 GCD | 883 SkS | DPS 8422.07": "http://ffxiv.ariyala.com/17BDG",
-      "2.04 GCD | 969 SkS | DPS 8426.12": "http://ffxiv.ariyala.com/17BDP",
-      "2.03 GCD | 1049 SkS | DPS 8423.65": "http://ffxiv.ariyala.com/17BDV",
-      "2.00 GCD | 1284 SkS | DPS 8394.70": "http://ffxiv.ariyala.com/17BH1"
+      "(5.01) Tentative BiS": "https://ffxiv.ariyala.com/19DPN"
     },
   "NIN":
     {
-      "2.10 GCD Set(w/pentamelded ring)": "http://ffxiv.ariyala.com/17GNY",
-      "2.08 GCD Set(poorfag)": "http://ffxiv.ariyala.com/177WJ"
+      "Tentative BiS": "https://i.gyazo.com/24bac16cce63ebae2d18939a48747c60.png"
     },
   "SAM":
     {
-      "Many BiS Sets": "http://bit.ly/SAM-BIS"
+      "2.13 GCD": "https://ffxiv.ariyala.com/19TES",
+      "2.05 GCD": "https://ffxiv.ariyala.com/19TFE",
+      "1.98 GCD": "https://ffxiv.ariyala.com/19TIO"
     },
   "BRD":
     {
-      "2.47 GCD": "http://ffxiv.ariyala.com/1762U",
-      "2.48 GCD": "http://ffxiv.ariyala.com/17587"
+      "BiS": "https://ffxiv.ariyala.com/19QMF"
     },
   "MCH":
     {
-      "2.43 GCD": "http://ffxiv.ariyala.com/17B4A",
-      "2.44 GCD": "http://ffxiv.ariyala.com/17BFJ",
-      "2.48 GCD": "http://ffxiv.ariyala.com/17B5U"
+      "Tentative BiS": "https://ffxiv.ariyala.com/19QRQ"
+    },
+  "DNC":
+    {
+      "22% Crit Rate  |  57% Crit Bonus | 37.8% DH Rate | 8.5% Det Bonus | 2.5 GCD": "https://ffxiv.ariyala.com/19V5R"
     },
   "BLM":
     {
-      "Max Crit": "http://ffxiv.ariyala.com/179S5",
-      "High SS": "http://ffxiv.ariyala.com/17NAI",
-      "SMN-BiS Compatible": "http://ffxiv.ariyala.com/17S8Q"
+      "fast/min crit BiS": "https://ffxiv.ariyala.com/19SIN",
+      "high crit BiS": "https://ffxiv.ariyala.com/19RFY",
+      "SMN/RDM friendly BiS": "https://ffxiv.ariyala.com/19W76"
     },
   "SMN":
     {
-      "2.48 GCD": "http://ffxiv.ariyala.com/1770B",
-      "2.45 GCD": "http://ffxiv.ariyala.com/1771J",
-      "2.43 GCD": "http://ffxiv.ariyala.com/1772A"
+      "Min Speed (Highest damage potential)": "https://ffxiv.ariyala.com/19MY2",
+      "2.48s GCD (Edengrace Head)": "https://ffxiv.ariyala.com/19MYL",
+      "Max Crit 2.45s GCD (Most volatile & variant)": "https://ffxiv.ariyala.com/19MZR"
     },
   "RDM":
     {
-      "BiS": "http://ffxiv.ariyala.com/17L25"
+      "2.5 GCD": "https://ffxiv.ariyala.com/19SKS",
+      "2.48 GCD": "https://ffxiv.ariyala.com/19SL3"
     }
 }

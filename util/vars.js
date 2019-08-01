@@ -1,1 +1,1 @@
-exports.xivPatch = "4.5";
+exports.xivPatch = "5.05";
