@@ -1,7 +1,7 @@
 {
   "PLD":
     {
-      "2.42 GCD": "https://ffxiv.ariyala.com/19LZM"
+      "PLD gearsets": "http://bit.ly/PLDGearsets"
     },
   "WAR":
     {
@@ -10,14 +10,15 @@
     },
   "DRK":
     {
-      "2.43 GCD": "https://ffxiv.ariyala.com/19V2S",
+      "2.43 GCD": "https://ffxiv.ariyala.com/19R9K",
       "2.41 GCD": "https://ffxiv.ariyala.com/19V1U",
       "2.4 GCD": "https://ffxiv.ariyala.com/19M2N",
       "2.38 GCD": "https://ffxiv.ariyala.com/19R4J"
     },
   "GNB":
     {
-      "2.4 GCD": "https://ffxiv.ariyala.com/19M1H"
+      "2.4 GCD": "https://ffxiv.ariyala.com/19Q9C",
+      "Tenacity based BiS": "https://ffxiv.ariyala.com/1A3G4"
     },
   "WHM":
     {
@@ -25,7 +26,8 @@
     },
   "AST":
     {
-      "Unironically playing AST :thinking:": "(BiS not out yet)"
+      "Low Piety (1023 SpS [2.43], 1408 Pie)": "https://ffxiv.ariyala.com/1A06H",
+      "High Piety (824 SpS [2.45], 1781 Pie)": "https://ffxiv.ariyala.com/19ZH1"
     },
   "SCH":
     {
@@ -33,11 +35,13 @@
     },
   "DRG":
     {
-      "Tentative BiS": "https://docs.google.com/spreadsheets/d/1bthsb3tUzGH_siZ_vgKqXOOlQqV5wblpK-XV7P2qO-4/edit?usp=sharing"
+      "2.49 GCD": "https://ffxiv.ariyala.com/1A0B4",
+      "2.45 GCD (likely best set)": "https://ffxiv.ariyala.com/1A0WM",
+      "2.38 GCD": "https://ffxiv.ariyala.com/1A0WN"
     },
   "MNK":
     {
-      "(5.01) Tentative BiS": "https://ffxiv.ariyala.com/19DPN"
+      "BiS": "https://ffxiv.ariyala.com/19WY4"
     },
   "NIN":
     {
@@ -45,9 +49,7 @@
     },
   "SAM":
     {
-      "2.13 GCD": "https://ffxiv.ariyala.com/19TES",
-      "2.05 GCD": "https://ffxiv.ariyala.com/19TFE",
-      "1.98 GCD": "https://ffxiv.ariyala.com/19TIO"
+      "SAM Gearsets": "http://bit.ly/SAM-BIS"
     },
   "BRD":
     {
