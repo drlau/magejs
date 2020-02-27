@@ -5,8 +5,8 @@ services:
     build:
       context: .
       dockerfile: Dockerfile
-    image: magejs
-    container_name: magejs
+    image: aidiru/magejs
+    container_name: aidiru/magejs
     restart: unless-stopped
     env_file: .env
     environment:
